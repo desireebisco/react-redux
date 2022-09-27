@@ -1,0 +1,27 @@
+
+.container {
+display: flex;
+gap: 5rem;
+}
+
+.tile {
+    border: 1px solid grey;
+    width: 25rem;
+    height: 100%;
+    position: relative;
+}
+
+.header{
+    height: 30%;
+    border-bottom: 1px solid grey;
+}
+.body{
+    height: 50%;
+    border-bottom: 1px dotted grey;
+    flex-grow: 4;
+}
+.footer{
+    height: 20%;
+    position: absolute;
+    bottom: 0;
+}

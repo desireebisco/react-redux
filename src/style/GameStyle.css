@@ -1,0 +1,77 @@
+.headerMenu{
+    background-color: darkgray;
+    padding: 1rem;
+    margin-bottom: 4rem;
+}
+.btnContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.topBtn{
+    padding: 1.5rem;
+    margin: 1rem;
+    font-size: 2rem;
+    background-color: white;
+    border-top-right-radius: 25px;
+}
+.btn{
+    padding: 2rem;
+    margin: 1rem;
+    font-size: 2rem;  
+    font-weight: bold; 
+}
+.btnActive {
+    padding: 2rem;
+    margin: 1rem;
+    font-size: 2rem;
+    background-color: black;
+    border-color: none;
+    color: white;
+    font-weight: bold;
+}
+
+.body{
+    display: flex;
+    justify-content: center;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    gap: 20rem;
+}
+
+
+.scoreText{
+    font-size: 20rem;
+    font-family: fantasy;   
+}
+.timerWordContainer{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    
+}
+.textContainer{
+    margin-bottom: 5rem;
+    border: 1px solid black;
+    height: 100px;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    font-weight: bold;
+    font-size: 5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.answersBTn{
+    display: flex;
+    background-color:silver;
+    padding: 2rem;    
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid black;
+    padding: 10px;
+    border-top-left-radius: 25px;
+    font-weight: bold;
+    margin-top: 5rem;
+
+}
+
